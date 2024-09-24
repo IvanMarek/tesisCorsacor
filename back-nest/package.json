@@ -1,0 +1,42 @@
+{
+  "name": "back-nest",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a>\r </p>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src,tests}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/mapped-types": "^2.0.5",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/platform-express": "^10.4.4",
+    "@nestjs/typeorm": "^10.0.2",
+    "bcryptjs": "^2.4.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "mysql2": "^3.11.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/passport-jwt": "^4.0.1"
+  }
+}
